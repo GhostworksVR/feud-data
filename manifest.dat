@@ -3,7 +3,18 @@
   "languages": {
     "en": {
       "regular": "en/regular.dat",
-      "kids": "en/kids.dat"
+      "kids": "en/kids.dat",
+      "custom": {
+        "movies": "en/custom/movies.dat",
+        "tv": "en/custom/tv.dat",
+        "games": "en/custom/games.dat",
+        "sports": "en/custom/sports.dat",
+        "music": "en/custom/music.dat",
+        "celebrities": "en/custom/celebrities.dat",
+        "knowledge": "en/custom/knowledge.dat",
+        "seasonal": "en/custom/seasonal.dat",
+        "other": "en/custom/other.dat"
+      }
     },
     "fr": {
       "regular": "fr/regular.dat",
@@ -28,20 +39,6 @@
     "de": {
       "regular": "de/regular.dat",
       "kids": "de/kids.dat"
-    }
-  },
-  "custom": {
-    "language": "en",
-    "packs": {
-      "movies": "en/custom/movies.dat",
-      "tv": "en/custom/tv.dat",
-      "games": "en/custom/games.dat",
-      "sports": "en/custom/sports.dat",
-      "music": "en/custom/music.dat",
-      "celebrities": "en/custom/celebrities.dat",
-      "knowledge": "en/custom/knowledge.dat",
-      "seasonal": "en/custom/seasonal.dat",
-      "other": "en/custom/other.dat"
     }
   }
 }
