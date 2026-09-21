@@ -1,44 +1,341 @@
 {
-  "version": 1,
+  "version": 2,
   "languages": {
     "en": {
-      "regular": "en/regular.dat",
-      "kids": "en/kids.dat",
+      "regular": {
+        "path": "en/regular.dat",
+        "count": 1191
+      },
+      "kids": {
+        "path": "en/kids.dat",
+        "count": 0
+      },
       "custom": {
-        "movies": "en/custom/movies.dat",
-        "tv": "en/custom/tv.dat",
-        "games": "en/custom/games.dat",
-        "sports": "en/custom/sports.dat",
-        "music": "en/custom/music.dat",
-        "celebrities": "en/custom/celebrities.dat",
-        "knowledge": "en/custom/knowledge.dat",
-        "seasonal": "en/custom/seasonal.dat",
-        "other": "en/custom/other.dat"
+        "movies": {
+          "path": "en/custom/movies.dat",
+          "count": 0
+        },
+        "tv": {
+          "path": "en/custom/tv.dat",
+          "count": 0
+        },
+        "games": {
+          "path": "en/custom/games.dat",
+          "count": 0
+        },
+        "sports": {
+          "path": "en/custom/sports.dat",
+          "count": 0
+        },
+        "music": {
+          "path": "en/custom/music.dat",
+          "count": 0
+        },
+        "celebrities": {
+          "path": "en/custom/celebrities.dat",
+          "count": 0
+        },
+        "knowledge": {
+          "path": "en/custom/knowledge.dat",
+          "count": 0
+        },
+        "seasonal": {
+          "path": "en/custom/seasonal.dat",
+          "count": 0
+        },
+        "other": {
+          "path": "en/custom/other.dat",
+          "count": 0
+        }
       }
     },
     "fr": {
-      "regular": "fr/regular.dat",
-      "kids": "fr/kids.dat"
+      "regular": {
+        "path": "fr/regular.dat",
+        "count": 0
+      },
+      "kids": {
+        "path": "fr/kids.dat",
+        "count": 0
+      },
+      "custom": {
+        "movies": {
+          "path": "fr/custom/movies.dat",
+          "count": 0
+        },
+        "tv": {
+          "path": "fr/custom/tv.dat",
+          "count": 0
+        },
+        "games": {
+          "path": "fr/custom/games.dat",
+          "count": 0
+        },
+        "sports": {
+          "path": "fr/custom/sports.dat",
+          "count": 0
+        },
+        "music": {
+          "path": "fr/custom/music.dat",
+          "count": 0
+        },
+        "celebrities": {
+          "path": "fr/custom/celebrities.dat",
+          "count": 0
+        },
+        "knowledge": {
+          "path": "fr/custom/knowledge.dat",
+          "count": 0
+        },
+        "seasonal": {
+          "path": "fr/custom/seasonal.dat",
+          "count": 0
+        },
+        "other": {
+          "path": "fr/custom/other.dat",
+          "count": 0
+        }
+      }
     },
     "es": {
-      "regular": "es/regular.dat",
-      "kids": "es/kids.dat"
+      "regular": {
+        "path": "es/regular.dat",
+        "count": 0
+      },
+      "kids": {
+        "path": "es/kids.dat",
+        "count": 0
+      },
+      "custom": {
+        "movies": {
+          "path": "es/custom/movies.dat",
+          "count": 0
+        },
+        "tv": {
+          "path": "es/custom/tv.dat",
+          "count": 0
+        },
+        "games": {
+          "path": "es/custom/games.dat",
+          "count": 0
+        },
+        "sports": {
+          "path": "es/custom/sports.dat",
+          "count": 0
+        },
+        "music": {
+          "path": "es/custom/music.dat",
+          "count": 0
+        },
+        "celebrities": {
+          "path": "es/custom/celebrities.dat",
+          "count": 0
+        },
+        "knowledge": {
+          "path": "es/custom/knowledge.dat",
+          "count": 0
+        },
+        "seasonal": {
+          "path": "es/custom/seasonal.dat",
+          "count": 0
+        },
+        "other": {
+          "path": "es/custom/other.dat",
+          "count": 0
+        }
+      }
     },
     "pt": {
-      "regular": "pt/regular.dat",
-      "kids": "pt/kids.dat"
+      "regular": {
+        "path": "pt/regular.dat",
+        "count": 0
+      },
+      "kids": {
+        "path": "pt/kids.dat",
+        "count": 0
+      },
+      "custom": {
+        "movies": {
+          "path": "pt/custom/movies.dat",
+          "count": 0
+        },
+        "tv": {
+          "path": "pt/custom/tv.dat",
+          "count": 0
+        },
+        "games": {
+          "path": "pt/custom/games.dat",
+          "count": 0
+        },
+        "sports": {
+          "path": "pt/custom/sports.dat",
+          "count": 0
+        },
+        "music": {
+          "path": "pt/custom/music.dat",
+          "count": 0
+        },
+        "celebrities": {
+          "path": "pt/custom/celebrities.dat",
+          "count": 0
+        },
+        "knowledge": {
+          "path": "pt/custom/knowledge.dat",
+          "count": 0
+        },
+        "seasonal": {
+          "path": "pt/custom/seasonal.dat",
+          "count": 0
+        },
+        "other": {
+          "path": "pt/custom/other.dat",
+          "count": 0
+        }
+      }
     },
     "ja": {
-      "regular": "ja/regular.dat",
-      "kids": "ja/kids.dat"
+      "regular": {
+        "path": "ja/regular.dat",
+        "count": 0
+      },
+      "kids": {
+        "path": "ja/kids.dat",
+        "count": 0
+      },
+      "custom": {
+        "movies": {
+          "path": "ja/custom/movies.dat",
+          "count": 0
+        },
+        "tv": {
+          "path": "ja/custom/tv.dat",
+          "count": 0
+        },
+        "games": {
+          "path": "ja/custom/games.dat",
+          "count": 0
+        },
+        "sports": {
+          "path": "ja/custom/sports.dat",
+          "count": 0
+        },
+        "music": {
+          "path": "ja/custom/music.dat",
+          "count": 0
+        },
+        "celebrities": {
+          "path": "ja/custom/celebrities.dat",
+          "count": 0
+        },
+        "knowledge": {
+          "path": "ja/custom/knowledge.dat",
+          "count": 0
+        },
+        "seasonal": {
+          "path": "ja/custom/seasonal.dat",
+          "count": 0
+        },
+        "other": {
+          "path": "ja/custom/other.dat",
+          "count": 0
+        }
+      }
     },
     "zh": {
-      "regular": "zh/regular.dat",
-      "kids": "zh/kids.dat"
+      "regular": {
+        "path": "zh/regular.dat",
+        "count": 0
+      },
+      "kids": {
+        "path": "zh/kids.dat",
+        "count": 0
+      },
+      "custom": {
+        "movies": {
+          "path": "zh/custom/movies.dat",
+          "count": 0
+        },
+        "tv": {
+          "path": "zh/custom/tv.dat",
+          "count": 0
+        },
+        "games": {
+          "path": "zh/custom/games.dat",
+          "count": 0
+        },
+        "sports": {
+          "path": "zh/custom/sports.dat",
+          "count": 0
+        },
+        "music": {
+          "path": "zh/custom/music.dat",
+          "count": 0
+        },
+        "celebrities": {
+          "path": "zh/custom/celebrities.dat",
+          "count": 0
+        },
+        "knowledge": {
+          "path": "zh/custom/knowledge.dat",
+          "count": 0
+        },
+        "seasonal": {
+          "path": "zh/custom/seasonal.dat",
+          "count": 0
+        },
+        "other": {
+          "path": "zh/custom/other.dat",
+          "count": 0
+        }
+      }
     },
     "de": {
-      "regular": "de/regular.dat",
-      "kids": "de/kids.dat"
+      "regular": {
+        "path": "de/regular.dat",
+        "count": 0
+      },
+      "kids": {
+        "path": "de/kids.dat",
+        "count": 0
+      },
+      "custom": {
+        "movies": {
+          "path": "de/custom/movies.dat",
+          "count": 0
+        },
+        "tv": {
+          "path": "de/custom/tv.dat",
+          "count": 0
+        },
+        "games": {
+          "path": "de/custom/games.dat",
+          "count": 0
+        },
+        "sports": {
+          "path": "de/custom/sports.dat",
+          "count": 0
+        },
+        "music": {
+          "path": "de/custom/music.dat",
+          "count": 0
+        },
+        "celebrities": {
+          "path": "de/custom/celebrities.dat",
+          "count": 0
+        },
+        "knowledge": {
+          "path": "de/custom/knowledge.dat",
+          "count": 0
+        },
+        "seasonal": {
+          "path": "de/custom/seasonal.dat",
+          "count": 0
+        },
+        "other": {
+          "path": "de/custom/other.dat",
+          "count": 0
+        }
+      }
     }
   }
 }
