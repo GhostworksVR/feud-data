@@ -1,339 +1,3197 @@
 {
-  "version": 2,
+  "version": 9,
+  "count": 30441,
   "languages": {
     "en": {
       "regular": {
+        "name": "Regular",
         "path": "en/regular.dat",
-        "count": 1191
+        "count": 1191,
+        "categories": [
+          {
+            "id": 1,
+            "name": "Family"
+          },
+          {
+            "id": 2,
+            "name": "Friends"
+          },
+          {
+            "id": 3,
+            "name": "Love"
+          },
+          {
+            "id": 4,
+            "name": "Lifestyle"
+          },
+          {
+            "id": 5,
+            "name": "Home"
+          },
+          {
+            "id": 6,
+            "name": "Food"
+          },
+          {
+            "id": 7,
+            "name": "Clothes"
+          },
+          {
+            "id": 8,
+            "name": "Shopping"
+          },
+          {
+            "id": 9,
+            "name": "Money"
+          },
+          {
+            "id": 10,
+            "name": "Work"
+          },
+          {
+            "id": 11,
+            "name": "Entertainment"
+          },
+          {
+            "id": 12,
+            "name": "Health"
+          },
+          {
+            "id": 13,
+            "name": "Travel"
+          },
+          {
+            "id": 14,
+            "name": "Weather"
+          },
+          {
+            "id": 15,
+            "name": "World"
+          }
+        ]
       },
       "kids": {
+        "name": "Kids",
         "path": "en/kids.dat",
-        "count": 0
+        "count": 989,
+        "categories": [
+          {
+            "id": 1,
+            "name": "Animals"
+          },
+          {
+            "id": 2,
+            "name": "Colors"
+          },
+          {
+            "id": 3,
+            "name": "Entertainment"
+          },
+          {
+            "id": 4,
+            "name": "Fantasy"
+          },
+          {
+            "id": 5,
+            "name": "Food"
+          },
+          {
+            "id": 6,
+            "name": "Games"
+          },
+          {
+            "id": 7,
+            "name": "Holidays"
+          },
+          {
+            "id": 8,
+            "name": "School"
+          },
+          {
+            "id": 9,
+            "name": "Toys"
+          }
+        ]
       },
       "custom": {
-        "movies": {
-          "path": "en/custom/movies.dat",
-          "count": 0
-        },
-        "tv": {
-          "path": "en/custom/tv.dat",
-          "count": 0
-        },
-        "games": {
-          "path": "en/custom/games.dat",
-          "count": 0
-        },
-        "sports": {
-          "path": "en/custom/sports.dat",
-          "count": 0
-        },
-        "music": {
-          "path": "en/custom/music.dat",
-          "count": 0
+        "academics": {
+          "name": "Academics",
+          "path": "en/custom/academics.dat",
+          "count": 2335,
+          "weight": 1.25,
+          "categories": [
+            {
+              "id": 1,
+              "name": "All Academics",
+              "gameModes": [
+                "regular"
+              ],
+              "popular": true
+            },
+            {
+              "id": 2,
+              "name": "Science"
+            },
+            {
+              "id": 3,
+              "name": "Physics"
+            },
+            {
+              "id": 4,
+              "name": "Biology"
+            },
+            {
+              "id": 5,
+              "name": "Chemistry"
+            },
+            {
+              "id": 6,
+              "name": "Space"
+            },
+            {
+              "id": 7,
+              "name": "Future"
+            },
+            {
+              "id": 8,
+              "name": "Scientists"
+            },
+            {
+              "id": 9,
+              "name": "Inventions"
+            },
+            {
+              "id": 10,
+              "name": "Human Body"
+            },
+            {
+              "id": 11,
+              "name": "Planets"
+            },
+            {
+              "id": 20,
+              "name": "Environment"
+            },
+            {
+              "id": 21,
+              "name": "Natural Disasters"
+            },
+            {
+              "id": 22,
+              "name": "Animals"
+            },
+            {
+              "id": 23,
+              "name": "Wildlife"
+            },
+            {
+              "id": 24,
+              "name": "Ocean Life"
+            },
+            {
+              "id": 25,
+              "name": "Insects"
+            },
+            {
+              "id": 26,
+              "name": "Safari"
+            },
+            {
+              "id": 27,
+              "name": "Birds"
+            },
+            {
+              "id": 28,
+              "name": "Dinosaurs"
+            },
+            {
+              "id": 35,
+              "name": "Technology"
+            },
+            {
+              "id": 45,
+              "name": "History"
+            },
+            {
+              "id": 46,
+              "name": "Wars"
+            },
+            {
+              "id": 47,
+              "name": "Civilizations"
+            },
+            {
+              "id": 48,
+              "name": "Medival"
+            },
+            {
+              "id": 49,
+              "name": "Leaders"
+            },
+            {
+              "id": 50,
+              "name": "Presidents"
+            },
+            {
+              "id": 51,
+              "name": "Historical Women"
+            },
+            {
+              "id": 52,
+              "name": "Historical Men"
+            },
+            {
+              "id": 53,
+              "name": "World History"
+            },
+            {
+              "id": 54,
+              "name": "Geography",
+              "popular": true
+            },
+            {
+              "id": 55,
+              "name": "Countries",
+              "popular": true
+            },
+            {
+              "id": 56,
+              "name": "Cities"
+            },
+            {
+              "id": 60,
+              "name": "Literature"
+            },
+            {
+              "id": 61,
+              "name": "Classic Novels"
+            },
+            {
+              "id": 62,
+              "name": "Authors"
+            },
+            {
+              "id": 75,
+              "name": "Math"
+            },
+            {
+              "id": 76,
+              "name": "Arithmetic"
+            },
+            {
+              "id": 77,
+              "name": "Geometry"
+            },
+            {
+              "id": 78,
+              "name": "Algebra"
+            },
+            {
+              "id": 79,
+              "name": "Shapes"
+            },
+            {
+              "id": 90,
+              "name": "Art"
+            }
+          ]
         },
         "celebrities": {
+          "name": "Celebrities",
           "path": "en/custom/celebrities.dat",
-          "count": 0
+          "count": 1013,
+          "weight": 1.5,
+          "categories": [
+            {
+              "id": 1,
+              "name": "All Celebrities",
+              "gameModes": [
+                "regular"
+              ],
+              "popular": true
+            },
+            {
+              "id": 2,
+              "name": "Hollywood A Listers"
+            },
+            {
+              "id": 3,
+              "name": "TV Stars"
+            },
+            {
+              "id": 4,
+              "name": "Action Stars"
+            },
+            {
+              "id": 5,
+              "name": "Comedy Actors"
+            },
+            {
+              "id": 6,
+              "name": "Reality TV Icons"
+            },
+            {
+              "id": 7,
+              "name": "Influencers"
+            },
+            {
+              "id": 8,
+              "name": "Old School"
+            },
+            {
+              "id": 9,
+              "name": "Cancelled"
+            },
+            {
+              "id": 10,
+              "name": "Scandals"
+            },
+            {
+              "id": 11,
+              "name": "Oscars"
+            },
+            {
+              "id": 12,
+              "name": "Couples"
+            },
+            {
+              "id": 13,
+              "name": "Child Stars"
+            },
+            {
+              "id": 14,
+              "name": "Comedians"
+            },
+            {
+              "id": 25,
+              "name": "Kardashians"
+            },
+            {
+              "id": 26,
+              "name": "Royal Family"
+            },
+            {
+              "id": 27,
+              "name": "Taylor Swift",
+              "gameModes": [
+                "kids"
+              ]
+            },
+            {
+              "id": 28,
+              "name": "Dwayne Johnson"
+            },
+            {
+              "id": 29,
+              "name": "Will Smith"
+            },
+            {
+              "id": 30,
+              "name": "Donald Trump"
+            },
+            {
+              "id": 31,
+              "name": "Oprah Winfrey"
+            }
+          ]
         },
-        "knowledge": {
-          "path": "en/custom/knowledge.dat",
-          "count": 0
+        "games": {
+          "name": "Games",
+          "path": "en/custom/games.dat",
+          "count": 2495,
+          "weight": 1.75,
+          "categories": [
+            {
+              "id": 1,
+              "name": "All Games",
+              "gameModes": [
+                "regular"
+              ],
+              "popular": true
+            },
+            {
+              "id": 2,
+              "name": "Action"
+            },
+            {
+              "id": 3,
+              "name": "Adventure"
+            },
+            {
+              "id": 4,
+              "name": "Strategy"
+            },
+            {
+              "id": 5,
+              "name": "Sports"
+            },
+            {
+              "id": 6,
+              "name": "Racing"
+            },
+            {
+              "id": 7,
+              "name": "Fighting"
+            },
+            {
+              "id": 8,
+              "name": "Shooter"
+            },
+            {
+              "id": 9,
+              "name": "Retro"
+            },
+            {
+              "id": 10,
+              "name": "Arcade"
+            },
+            {
+              "id": 11,
+              "name": "Board"
+            },
+            {
+              "id": 20,
+              "name": "Sega"
+            },
+            {
+              "id": 21,
+              "name": "Nintendo"
+            },
+            {
+              "id": 22,
+              "name": "Playstation"
+            },
+            {
+              "id": 23,
+              "name": "Xbox"
+            },
+            {
+              "id": 24,
+              "name": "Mobile"
+            },
+            {
+              "id": 25,
+              "name": "PC"
+            },
+            {
+              "id": 26,
+              "name": "VR",
+              "popular": true
+            },
+            {
+              "id": 40,
+              "name": "Pokemon",
+              "popular": true
+            },
+            {
+              "id": 41,
+              "name": "Pokemon OG"
+            },
+            {
+              "id": 42,
+              "name": "Minecraft",
+              "popular": true
+            },
+            {
+              "id": 43,
+              "name": "GTA"
+            },
+            {
+              "id": 44,
+              "name": "Mario"
+            },
+            {
+              "id": 45,
+              "name": "Call of Duty"
+            },
+            {
+              "id": 46,
+              "name": "Overwatch"
+            },
+            {
+              "id": 47,
+              "name": "Red Dead Redemption"
+            },
+            {
+              "id": 48,
+              "name": "Valorant"
+            },
+            {
+              "id": 49,
+              "name": "Zelda"
+            },
+            {
+              "id": 50,
+              "name": "Fortnite"
+            },
+            {
+              "id": 51,
+              "name": "Roblox"
+            },
+            {
+              "id": 52,
+              "name": "Animal Crossing"
+            },
+            {
+              "id": 53,
+              "name": "Sonic"
+            },
+            {
+              "id": 54,
+              "name": "Assassins Creed"
+            },
+            {
+              "id": 55,
+              "name": "Final Fantasy"
+            },
+            {
+              "id": 56,
+              "name": "The Sims"
+            },
+            {
+              "id": 57,
+              "name": "Among Us"
+            },
+            {
+              "id": 58,
+              "name": "League of Legends"
+            },
+            {
+              "id": 59,
+              "name": "Runescape"
+            },
+            {
+              "id": 60,
+              "name": "World of Warcraft"
+            }
+          ]
         },
-        "seasonal": {
-          "path": "en/custom/seasonal.dat",
-          "count": 0
+        "movies": {
+          "name": "Movies",
+          "path": "en/custom/movies.dat",
+          "count": 5320,
+          "weight": 2.5,
+          "categories": [
+            {
+              "id": 1,
+              "name": "All",
+              "gameModes": [
+                "regular"
+              ],
+              "popular": true
+            },
+            {
+              "id": 2,
+              "name": "Action"
+            },
+            {
+              "id": 3,
+              "name": "Adventure"
+            },
+            {
+              "id": 4,
+              "name": "Fantasy"
+            },
+            {
+              "id": 5,
+              "name": "Drama"
+            },
+            {
+              "id": 6,
+              "name": "Romance"
+            },
+            {
+              "id": 7,
+              "name": "Rom Coms"
+            },
+            {
+              "id": 8,
+              "name": "Horror"
+            },
+            {
+              "id": 9,
+              "name": "Comedy"
+            },
+            {
+              "id": 10,
+              "name": "Sci Fi"
+            },
+            {
+              "id": 11,
+              "name": "Thriller"
+            },
+            {
+              "id": 12,
+              "name": "Western"
+            },
+            {
+              "id": 13,
+              "name": "Mystery"
+            },
+            {
+              "id": 14,
+              "name": "Crime"
+            },
+            {
+              "id": 15,
+              "name": "Musicals"
+            },
+            {
+              "id": 16,
+              "name": "Bollywood"
+            },
+            {
+              "id": 17,
+              "name": "Anime"
+            },
+            {
+              "id": 18,
+              "name": "Chick Flicks"
+            },
+            {
+              "id": 25,
+              "name": "Harry Potter",
+              "gameModes": [
+                "kids"
+              ]
+            },
+            {
+              "id": 26,
+              "name": "Marvel",
+              "gameModes": [
+                "regular",
+                "kids"
+              ],
+              "popular": true
+            },
+            {
+              "id": 27,
+              "name": "Avengers",
+              "gameModes": [
+                "kids"
+              ]
+            },
+            {
+              "id": 28,
+              "name": "DC",
+              "gameModes": [
+                "kids"
+              ]
+            },
+            {
+              "id": 29,
+              "name": "Star Wars"
+            },
+            {
+              "id": 30,
+              "name": "Lord of the Rings"
+            },
+            {
+              "id": 31,
+              "name": "Disney",
+              "gameModes": [
+                "kids"
+              ],
+              "popular": true
+            },
+            {
+              "id": 32,
+              "name": "Pixar",
+              "gameModes": [
+                "kids"
+              ]
+            },
+            {
+              "id": 33,
+              "name": "Star Trek"
+            },
+            {
+              "id": 34,
+              "name": "Madagascar",
+              "gameModes": [
+                "kids"
+              ]
+            },
+            {
+              "id": 35,
+              "name": "Jurassic Park"
+            },
+            {
+              "id": 36,
+              "name": "James Bond"
+            },
+            {
+              "id": 37,
+              "name": "Fast and Furious"
+            },
+            {
+              "id": 38,
+              "name": "Indiana Jones"
+            },
+            {
+              "id": 39,
+              "name": "Twilight"
+            },
+            {
+              "id": 40,
+              "name": "Avatar"
+            },
+            {
+              "id": 41,
+              "name": "Transformers"
+            },
+            {
+              "id": 42,
+              "name": "Pirates of the Carribean"
+            },
+            {
+              "id": 43,
+              "name": "Spy Kids"
+            },
+            {
+              "id": 44,
+              "name": "Step Up"
+            },
+            {
+              "id": 55,
+              "name": "Shrek",
+              "gameModes": [
+                "kids"
+              ]
+            },
+            {
+              "id": 56,
+              "name": "Kung Fu Panda"
+            },
+            {
+              "id": 57,
+              "name": "Frozen",
+              "gameModes": [
+                "kids"
+              ]
+            },
+            {
+              "id": 58,
+              "name": "Ice Age",
+              "gameModes": [
+                "kids"
+              ]
+            },
+            {
+              "id": 59,
+              "name": "Toy Story",
+              "gameModes": [
+                "kids"
+              ]
+            },
+            {
+              "id": 60,
+              "name": "The Lion King",
+              "gameModes": [
+                "kids"
+              ]
+            },
+            {
+              "id": 61,
+              "name": "Finding Nemo",
+              "gameModes": [
+                "kids"
+              ]
+            },
+            {
+              "id": 62,
+              "name": "Ratatouille",
+              "gameModes": [
+                "kids"
+              ]
+            },
+            {
+              "id": 80,
+              "name": "Iron Man"
+            },
+            {
+              "id": 81,
+              "name": "Batman",
+              "gameModes": [
+                "kids"
+              ]
+            },
+            {
+              "id": 82,
+              "name": "Superman"
+            },
+            {
+              "id": 83,
+              "name": "Spiderman"
+            },
+            {
+              "id": 84,
+              "name": "Deadpool"
+            },
+            {
+              "id": 85,
+              "name": "X Men"
+            },
+            {
+              "id": 86,
+              "name": "Guardians of the Galaxy",
+              "gameModes": [
+                "kids"
+              ]
+            },
+            {
+              "id": 87,
+              "name": "Superheros",
+              "gameModes": [
+                "kids"
+              ],
+              "popular": true
+            },
+            {
+              "id": 88,
+              "name": "Supervillians",
+              "gameModes": [
+                "kids"
+              ]
+            },
+            {
+              "id": 100,
+              "name": "The Grinch"
+            },
+            {
+              "id": 101,
+              "name": "Forest Gump"
+            },
+            {
+              "id": 102,
+              "name": "Inception"
+            },
+            {
+              "id": 103,
+              "name": "Interstella"
+            },
+            {
+              "id": 104,
+              "name": "Pulp Fiction"
+            },
+            {
+              "id": 105,
+              "name": "Greece"
+            },
+            {
+              "id": 120,
+              "name": "60s Movies"
+            },
+            {
+              "id": 121,
+              "name": "70s Movies"
+            },
+            {
+              "id": 122,
+              "name": "80s Movies"
+            },
+            {
+              "id": 123,
+              "name": "90s Movies"
+            },
+            {
+              "id": 124,
+              "name": "2000s Movies"
+            },
+            {
+              "id": 125,
+              "name": "2010s Movies"
+            },
+            {
+              "id": 126,
+              "name": "2020s Movies"
+            },
+            {
+              "id": 130,
+              "name": "Movie Quotes"
+            },
+            {
+              "id": 131,
+              "name": "Movie Music"
+            },
+            {
+              "id": 132,
+              "name": "Movie Props"
+            }
+          ]
+        },
+        "music": {
+          "name": "Music",
+          "path": "en/custom/music.dat",
+          "count": 3114,
+          "weight": 1.75,
+          "categories": [
+            {
+              "id": 1,
+              "name": "All Music",
+              "gameModes": [
+                "regular"
+              ],
+              "popular": true
+            },
+            {
+              "id": 2,
+              "name": "Pop",
+              "popular": true
+            },
+            {
+              "id": 3,
+              "name": "Rap"
+            },
+            {
+              "id": 4,
+              "name": "Hip Hop"
+            },
+            {
+              "id": 5,
+              "name": "R & B"
+            },
+            {
+              "id": 6,
+              "name": "Rock"
+            },
+            {
+              "id": 7,
+              "name": "Country"
+            },
+            {
+              "id": 8,
+              "name": "Jazz"
+            },
+            {
+              "id": 9,
+              "name": "Classical"
+            },
+            {
+              "id": 10,
+              "name": "Reggae"
+            },
+            {
+              "id": 11,
+              "name": "K Pop"
+            },
+            {
+              "id": 15,
+              "name": "Boy Bands"
+            },
+            {
+              "id": 16,
+              "name": "Girl Groups"
+            },
+            {
+              "id": 17,
+              "name": "One Hit Wonders"
+            },
+            {
+              "id": 18,
+              "name": "Duets"
+            },
+            {
+              "id": 19,
+              "name": "Live Performances"
+            },
+            {
+              "id": 20,
+              "name": "Music Videos"
+            },
+            {
+              "id": 21,
+              "name": "Award Winners"
+            },
+            {
+              "id": 22,
+              "name": "Instruments"
+            },
+            {
+              "id": 23,
+              "name": "Lyrics"
+            },
+            {
+              "id": 24,
+              "name": "Disney Songs"
+            },
+            {
+              "id": 25,
+              "name": "Rap Groups"
+            },
+            {
+              "id": 35,
+              "name": "60s"
+            },
+            {
+              "id": 36,
+              "name": "70s"
+            },
+            {
+              "id": 37,
+              "name": "80s"
+            },
+            {
+              "id": 38,
+              "name": "90s"
+            },
+            {
+              "id": 39,
+              "name": "2000s"
+            },
+            {
+              "id": 40,
+              "name": "2010s"
+            },
+            {
+              "id": 41,
+              "name": "2020s"
+            },
+            {
+              "id": 42,
+              "name": "80s Rock"
+            },
+            {
+              "id": 50,
+              "name": "The Beatles"
+            },
+            {
+              "id": 51,
+              "name": "Michael Jackson",
+              "popular": true
+            },
+            {
+              "id": 52,
+              "name": "Elvis Presley"
+            },
+            {
+              "id": 53,
+              "name": "Queen"
+            },
+            {
+              "id": 54,
+              "name": "Madonna"
+            },
+            {
+              "id": 55,
+              "name": "Beyonce"
+            },
+            {
+              "id": 56,
+              "name": "Taylor Swift",
+              "popular": true
+            },
+            {
+              "id": 57,
+              "name": "Drake"
+            },
+            {
+              "id": 58,
+              "name": "Kanye West"
+            },
+            {
+              "id": 59,
+              "name": "Adele"
+            },
+            {
+              "id": 60,
+              "name": "Rihanna"
+            },
+            {
+              "id": 61,
+              "name": "Bruno Mars"
+            },
+            {
+              "id": 62,
+              "name": "Eminem"
+            },
+            {
+              "id": 63,
+              "name": "Whitney Houston"
+            },
+            {
+              "id": 64,
+              "name": "Mariah Carey"
+            },
+            {
+              "id": 65,
+              "name": "Lady Gaga"
+            },
+            {
+              "id": 66,
+              "name": "The Rolling Stones"
+            },
+            {
+              "id": 67,
+              "name": "Elton John"
+            },
+            {
+              "id": 68,
+              "name": "Stevie Wonder"
+            },
+            {
+              "id": 69,
+              "name": "Bob Dylan"
+            },
+            {
+              "id": 70,
+              "name": "BTS"
+            },
+            {
+              "id": 71,
+              "name": "Coldplay"
+            },
+            {
+              "id": 72,
+              "name": "U2"
+            },
+            {
+              "id": 73,
+              "name": "Kendrick Lamar"
+            },
+            {
+              "id": 74,
+              "name": "Justin Bieber"
+            },
+            {
+              "id": 75,
+              "name": "Chris Brown"
+            },
+            {
+              "id": 76,
+              "name": "The Weekend"
+            },
+            {
+              "id": 77,
+              "name": "Tupac"
+            }
+          ]
         },
         "other": {
+          "name": "Other",
           "path": "en/custom/other.dat",
-          "count": 0
+          "count": 950,
+          "weight": 1,
+          "categories": [
+            {
+              "id": 1,
+              "name": "Guilty Pleasures",
+              "gameModes": [
+                "regular"
+              ]
+            },
+            {
+              "id": 2,
+              "name": "Struggles",
+              "gameModes": [
+                "regular"
+              ]
+            },
+            {
+              "id": 3,
+              "name": "Pet Peeves",
+              "gameModes": [
+                "regular"
+              ]
+            },
+            {
+              "id": 4,
+              "name": "Memes"
+            },
+            {
+              "id": 5,
+              "name": "Youtube",
+              "gameModes": [
+                "regular",
+                "kids"
+              ]
+            },
+            {
+              "id": 6,
+              "name": "Nostalgia"
+            },
+            {
+              "id": 7,
+              "name": "Search History"
+            },
+            {
+              "id": 8,
+              "name": "Online Dating",
+              "gameModes": [
+                "regular"
+              ]
+            },
+            {
+              "id": 9,
+              "name": "Texting"
+            },
+            {
+              "id": 10,
+              "name": "Crush",
+              "gameModes": [
+                "regular"
+              ]
+            },
+            {
+              "id": 11,
+              "name": "Best Friends",
+              "gameModes": [
+                "regular"
+              ]
+            },
+            {
+              "id": 12,
+              "name": "Roomates",
+              "gameModes": [
+                "regular"
+              ]
+            },
+            {
+              "id": 13,
+              "name": "Family",
+              "gameModes": [
+                "regular"
+              ],
+              "popular": true
+            },
+            {
+              "id": 16,
+              "name": "Social Media",
+              "gameModes": [
+                "regular"
+              ]
+            },
+            {
+              "id": 17,
+              "name": "Zombie Apocalypse",
+              "gameModes": [
+                "regular"
+              ]
+            },
+            {
+              "id": 18,
+              "name": "Island Survival",
+              "gameModes": [
+                "regular"
+              ]
+            },
+            {
+              "id": 19,
+              "name": "Nicknames"
+            },
+            {
+              "id": 20,
+              "name": "Fears"
+            },
+            {
+              "id": 21,
+              "name": "Travel",
+              "gameModes": [
+                "regular"
+              ]
+            },
+            {
+              "id": 22,
+              "name": "1980s"
+            },
+            {
+              "id": 23,
+              "name": "1990s"
+            },
+            {
+              "id": 24,
+              "name": "2000s"
+            },
+            {
+              "id": 25,
+              "name": "British"
+            },
+            {
+              "id": 26,
+              "name": "Fast Food",
+              "gameModes": [
+                "regular"
+              ]
+            },
+            {
+              "id": 27,
+              "name": "Cooking",
+              "gameModes": [
+                "regular"
+              ]
+            },
+            {
+              "id": 28,
+              "name": "Carnival"
+            },
+            {
+              "id": 29,
+              "name": "Pets",
+              "gameModes": [
+                "regular",
+                "kids"
+              ]
+            }
+          ]
+        },
+        "seasonal": {
+          "name": "Seasonal",
+          "path": "en/custom/seasonal.dat",
+          "count": 544,
+          "weight": 2,
+          "categories": [
+            {
+              "id": 1,
+              "name": "Christmas",
+              "gameModes": [
+                "regular",
+                "kids"
+              ],
+              "popular": true
+            },
+            {
+              "id": 2,
+              "name": "Halloween",
+              "gameModes": [
+                "regular",
+                "kids"
+              ],
+              "popular": true
+            },
+            {
+              "id": 3,
+              "name": "Summer",
+              "gameModes": [
+                "regular",
+                "kids"
+              ]
+            },
+            {
+              "id": 4,
+              "name": "Thanksgiving",
+              "gameModes": [
+                "regular",
+                "kids"
+              ]
+            },
+            {
+              "id": 5,
+              "name": "Spring Break",
+              "gameModes": [
+                "regular"
+              ]
+            },
+            {
+              "id": 6,
+              "name": "Back to School",
+              "gameModes": [
+                "regular",
+                "kids"
+              ]
+            },
+            {
+              "id": 7,
+              "name": "New Years",
+              "gameModes": [
+                "regular"
+              ]
+            },
+            {
+              "id": 8,
+              "name": "Valentines",
+              "gameModes": [
+                "regular"
+              ]
+            },
+            {
+              "id": 9,
+              "name": "4th of July",
+              "gameModes": [
+                "regular"
+              ]
+            },
+            {
+              "id": 10,
+              "name": "Winter",
+              "gameModes": [
+                "regular"
+              ],
+              "popular": true
+            },
+            {
+              "id": 11,
+              "name": "Birthday",
+              "gameModes": [
+                "regular"
+              ]
+            },
+            {
+              "id": 12,
+              "name": "Easter",
+              "gameModes": [
+                "regular"
+              ]
+            },
+            {
+              "id": 13,
+              "name": "Fall",
+              "gameModes": [
+                "regular"
+              ]
+            },
+            {
+              "id": 14,
+              "name": "Weddings"
+            }
+          ]
+        },
+        "sports": {
+          "name": "Sports",
+          "path": "en/custom/sports.dat",
+          "count": 1518,
+          "weight": 1.5,
+          "categories": [
+            {
+              "id": 1,
+              "name": "All Sports",
+              "gameModes": [
+                "regular"
+              ],
+              "popular": true
+            },
+            {
+              "id": 2,
+              "name": "Football",
+              "popular": true
+            },
+            {
+              "id": 3,
+              "name": "Soccer"
+            },
+            {
+              "id": 4,
+              "name": "Baseball"
+            },
+            {
+              "id": 5,
+              "name": "Basketball"
+            },
+            {
+              "id": 6,
+              "name": "Tennis"
+            },
+            {
+              "id": 7,
+              "name": "Track and Field"
+            },
+            {
+              "id": 8,
+              "name": "Hockey"
+            },
+            {
+              "id": 9,
+              "name": "WWE"
+            },
+            {
+              "id": 10,
+              "name": "Boxing"
+            },
+            {
+              "id": 11,
+              "name": "UFC"
+            },
+            {
+              "id": 12,
+              "name": "Golf"
+            },
+            {
+              "id": 13,
+              "name": "Cricket"
+            },
+            {
+              "id": 14,
+              "name": "Rugby"
+            },
+            {
+              "id": 15,
+              "name": "Chess"
+            },
+            {
+              "id": 25,
+              "name": "Super Bowl"
+            },
+            {
+              "id": 26,
+              "name": "FIFA World Cup"
+            },
+            {
+              "id": 27,
+              "name": "Summer Olympics"
+            },
+            {
+              "id": 28,
+              "name": "Winter Olympics"
+            },
+            {
+              "id": 29,
+              "name": "NBA Finals"
+            },
+            {
+              "id": 30,
+              "name": "MLB World Series"
+            },
+            {
+              "id": 31,
+              "name": "Wimbledon"
+            },
+            {
+              "id": 32,
+              "name": "Tour de France"
+            },
+            {
+              "id": 33,
+              "name": "Wrestlemania"
+            },
+            {
+              "id": 34,
+              "name": "Nascar"
+            },
+            {
+              "id": 40,
+              "name": "Legends",
+              "popular": true
+            },
+            {
+              "id": 41,
+              "name": "Rivalries"
+            },
+            {
+              "id": 42,
+              "name": "Fantasy Football"
+            },
+            {
+              "id": 43,
+              "name": "E Sports"
+            }
+          ]
+        },
+        "tv": {
+          "name": "TV",
+          "path": "en/custom/tv.dat",
+          "count": 4640,
+          "weight": 2.25,
+          "categories": [
+            {
+              "id": 1,
+              "name": "All TV",
+              "gameModes": [
+                "regular"
+              ],
+              "popular": true
+            },
+            {
+              "id": 2,
+              "name": "Drama"
+            },
+            {
+              "id": 3,
+              "name": "Comedy"
+            },
+            {
+              "id": 4,
+              "name": "Sitcom"
+            },
+            {
+              "id": 5,
+              "name": "Crime"
+            },
+            {
+              "id": 6,
+              "name": "Mystery"
+            },
+            {
+              "id": 7,
+              "name": "Thriller"
+            },
+            {
+              "id": 8,
+              "name": "Sci Fi"
+            },
+            {
+              "id": 9,
+              "name": "Fantasy"
+            },
+            {
+              "id": 10,
+              "name": "Reality TV"
+            },
+            {
+              "id": 11,
+              "name": "Talk Shows"
+            },
+            {
+              "id": 12,
+              "name": "Game Shows",
+              "popular": true
+            },
+            {
+              "id": 13,
+              "name": "Romance"
+            },
+            {
+              "id": 14,
+              "name": "Cartoons",
+              "popular": true
+            },
+            {
+              "id": 15,
+              "name": "Soaps"
+            },
+            {
+              "id": 25,
+              "name": "Nickelodeon",
+              "gameModes": [
+                "kids"
+              ]
+            },
+            {
+              "id": 26,
+              "name": "Cartoon Network",
+              "gameModes": [
+                "kids"
+              ]
+            },
+            {
+              "id": 27,
+              "name": "Netflix"
+            },
+            {
+              "id": 28,
+              "name": "HBO"
+            },
+            {
+              "id": 29,
+              "name": "Disney Channel",
+              "gameModes": [
+                "kids"
+              ]
+            },
+            {
+              "id": 30,
+              "name": "Disney Plus",
+              "gameModes": [
+                "kids"
+              ]
+            },
+            {
+              "id": 50,
+              "name": "The Simpsons",
+              "gameModes": [
+                "kids"
+              ],
+              "popular": true
+            },
+            {
+              "id": 51,
+              "name": "Family Guy",
+              "popular": true
+            },
+            {
+              "id": 52,
+              "name": "South Park"
+            },
+            {
+              "id": 53,
+              "name": "Futurama"
+            },
+            {
+              "id": 54,
+              "name": "American Dad"
+            },
+            {
+              "id": 55,
+              "name": "Rick and Morty"
+            },
+            {
+              "id": 56,
+              "name": "Bobs Burgers"
+            },
+            {
+              "id": 57,
+              "name": "King of the Hill"
+            },
+            {
+              "id": 58,
+              "name": "Beavis and Butt Head"
+            },
+            {
+              "id": 64,
+              "name": "Seinfeld"
+            },
+            {
+              "id": 65,
+              "name": "The Office",
+              "popular": true
+            },
+            {
+              "id": 66,
+              "name": "Friends"
+            },
+            {
+              "id": 67,
+              "name": "Parks and Recreation"
+            },
+            {
+              "id": 68,
+              "name": "Brooklyn Nine Nine"
+            },
+            {
+              "id": 69,
+              "name": "How I Met Your Mother"
+            },
+            {
+              "id": 70,
+              "name": "The Big Bang Theory"
+            },
+            {
+              "id": 71,
+              "name": "Jersey Shore"
+            },
+            {
+              "id": 72,
+              "name": "Real Housewives"
+            },
+            {
+              "id": 80,
+              "name": "Game of Thrones"
+            },
+            {
+              "id": 81,
+              "name": "Breaking Bad"
+            },
+            {
+              "id": 82,
+              "name": "Better Call Saul"
+            },
+            {
+              "id": 83,
+              "name": "The Walking Dead"
+            },
+            {
+              "id": 84,
+              "name": "Squid Games"
+            },
+            {
+              "id": 85,
+              "name": "Star Trek"
+            },
+            {
+              "id": 86,
+              "name": "Doctor Who"
+            },
+            {
+              "id": 87,
+              "name": "NCIS"
+            },
+            {
+              "id": 88,
+              "name": "Law & Order"
+            },
+            {
+              "id": 89,
+              "name": "CSI"
+            },
+            {
+              "id": 90,
+              "name": "The Vampire Diaries"
+            },
+            {
+              "id": 91,
+              "name": "American Horror Story"
+            },
+            {
+              "id": 92,
+              "name": "Survivor"
+            },
+            {
+              "id": 93,
+              "name": "Big Brother"
+            },
+            {
+              "id": 94,
+              "name": "Supernatural"
+            },
+            {
+              "id": 95,
+              "name": "Stranger Things"
+            },
+            {
+              "id": 96,
+              "name": "The Witcher"
+            },
+            {
+              "id": 97,
+              "name": "Wednesday"
+            },
+            {
+              "id": 98,
+              "name": "Family Feud"
+            },
+            {
+              "id": 112,
+              "name": "Pokemon",
+              "popular": true
+            },
+            {
+              "id": 113,
+              "name": "Pokemon Gen 1"
+            },
+            {
+              "id": 114,
+              "name": "Yu Gi Oh"
+            },
+            {
+              "id": 115,
+              "name": "SpongeBob SquarePants",
+              "gameModes": [
+                "kids"
+              ],
+              "popular": true
+            },
+            {
+              "id": 116,
+              "name": "Drake & Josh"
+            },
+            {
+              "id": 117,
+              "name": "iCarly",
+              "gameModes": [
+                "kids"
+              ]
+            },
+            {
+              "id": 118,
+              "name": "Rugrats"
+            },
+            {
+              "id": 119,
+              "name": "The Fairly OddParents"
+            },
+            {
+              "id": 120,
+              "name": "Jimmy Neutron",
+              "gameModes": [
+                "kids"
+              ]
+            },
+            {
+              "id": 121,
+              "name": "Hey Arnold"
+            },
+            {
+              "id": 122,
+              "name": "Zoey 101"
+            },
+            {
+              "id": 123,
+              "name": "Hannah Montana",
+              "gameModes": [
+                "kids"
+              ]
+            },
+            {
+              "id": 124,
+              "name": "Lizzie McGuire"
+            },
+            {
+              "id": 125,
+              "name": "Adventure Time"
+            },
+            {
+              "id": 126,
+              "name": "The Powerpuff Girls"
+            },
+            {
+              "id": 127,
+              "name": "Dexters Laboratory"
+            },
+            {
+              "id": 128,
+              "name": "Ed, Edd n Eddy"
+            },
+            {
+              "id": 150,
+              "name": "60s TV"
+            },
+            {
+              "id": 151,
+              "name": "70s TV"
+            },
+            {
+              "id": 152,
+              "name": "80s TV"
+            },
+            {
+              "id": 153,
+              "name": "90s TV"
+            },
+            {
+              "id": 154,
+              "name": "2000s TV"
+            },
+            {
+              "id": 155,
+              "name": "2010s TV"
+            },
+            {
+              "id": 156,
+              "name": "2020s TV"
+            },
+            {
+              "id": 180,
+              "name": "TV Quotes"
+            },
+            {
+              "id": 181,
+              "name": "TV Props"
+            }
+          ]
         }
       }
     },
     "fr": {
       "regular": {
+        "name": "Normal",
         "path": "fr/regular.dat",
-        "count": 0
+        "count": 671,
+        "categories": [
+          {
+            "id": 1,
+            "name": "Famille"
+          },
+          {
+            "id": 2,
+            "name": "Amis"
+          },
+          {
+            "id": 3,
+            "name": "Amour"
+          },
+          {
+            "id": 4,
+            "name": "Mode de vie"
+          },
+          {
+            "id": 5,
+            "name": "Maison"
+          },
+          {
+            "id": 6,
+            "name": "Nourriture"
+          },
+          {
+            "id": 7,
+            "name": "Vêtements"
+          },
+          {
+            "id": 8,
+            "name": "Shopping"
+          },
+          {
+            "id": 9,
+            "name": "Argent"
+          },
+          {
+            "id": 10,
+            "name": "Travail"
+          },
+          {
+            "id": 11,
+            "name": "Divertissement"
+          },
+          {
+            "id": 12,
+            "name": "Études"
+          },
+          {
+            "id": 13,
+            "name": "Bien-être"
+          },
+          {
+            "id": 14,
+            "name": "Voyages"
+          },
+          {
+            "id": 15,
+            "name": "Météo"
+          },
+          {
+            "id": 16,
+            "name": "Monde"
+          }
+        ]
       },
       "kids": {
+        "name": "Enfants",
         "path": "fr/kids.dat",
-        "count": 0
+        "count": 126,
+        "categories": [
+          {
+            "id": 1,
+            "name": "Animaux"
+          },
+          {
+            "id": 2,
+            "name": "Couleurs"
+          },
+          {
+            "id": 3,
+            "name": "Divertissement"
+          },
+          {
+            "id": 4,
+            "name": "Fantaisie"
+          },
+          {
+            "id": 5,
+            "name": "Nourriture"
+          },
+          {
+            "id": 6,
+            "name": "Jeux"
+          },
+          {
+            "id": 7,
+            "name": "Fêtes"
+          },
+          {
+            "id": 8,
+            "name": "École"
+          },
+          {
+            "id": 9,
+            "name": "Jouets"
+          }
+        ]
       },
       "custom": {
-        "movies": {
-          "path": "fr/custom/movies.dat",
-          "count": 0
-        },
-        "tv": {
-          "path": "fr/custom/tv.dat",
-          "count": 0
-        },
-        "games": {
-          "path": "fr/custom/games.dat",
-          "count": 0
-        },
-        "sports": {
-          "path": "fr/custom/sports.dat",
-          "count": 0
-        },
-        "music": {
-          "path": "fr/custom/music.dat",
-          "count": 0
+        "academics": {
+          "name": "Académique",
+          "path": "fr/custom/academics.dat",
+          "count": 0,
+          "weight": 1.25,
+          "categories": []
         },
         "celebrities": {
+          "name": "Célébrités",
           "path": "fr/custom/celebrities.dat",
-          "count": 0
+          "count": 0,
+          "weight": 1.5,
+          "categories": []
         },
-        "knowledge": {
-          "path": "fr/custom/knowledge.dat",
-          "count": 0
+        "games": {
+          "name": "Jeux",
+          "path": "fr/custom/games.dat",
+          "count": 0,
+          "weight": 1.75,
+          "categories": []
         },
-        "seasonal": {
-          "path": "fr/custom/seasonal.dat",
-          "count": 0
+        "movies": {
+          "name": "Films",
+          "path": "fr/custom/movies.dat",
+          "count": 0,
+          "weight": 2.5,
+          "categories": []
+        },
+        "music": {
+          "name": "Musique",
+          "path": "fr/custom/music.dat",
+          "count": 0,
+          "weight": 1.75,
+          "categories": []
         },
         "other": {
+          "name": "Autres",
           "path": "fr/custom/other.dat",
-          "count": 0
+          "count": 0,
+          "weight": 1,
+          "categories": []
+        },
+        "seasonal": {
+          "name": "Saisonnier",
+          "path": "fr/custom/seasonal.dat",
+          "count": 0,
+          "weight": 2,
+          "categories": []
+        },
+        "sports": {
+          "name": "Sports",
+          "path": "fr/custom/sports.dat",
+          "count": 0,
+          "weight": 1.5,
+          "categories": []
+        },
+        "tv": {
+          "name": "Télévision",
+          "path": "fr/custom/tv.dat",
+          "count": 0,
+          "weight": 2.25,
+          "categories": []
         }
       }
     },
     "es": {
       "regular": {
+        "name": "Normal",
         "path": "es/regular.dat",
-        "count": 0
+        "count": 672,
+        "categories": [
+          {
+            "id": 1,
+            "name": "Familia"
+          },
+          {
+            "id": 2,
+            "name": "Amigos"
+          },
+          {
+            "id": 3,
+            "name": "Amor"
+          },
+          {
+            "id": 4,
+            "name": "Estilo de vida"
+          },
+          {
+            "id": 5,
+            "name": "Hogar"
+          },
+          {
+            "id": 6,
+            "name": "Comida"
+          },
+          {
+            "id": 7,
+            "name": "Ropa"
+          },
+          {
+            "id": 8,
+            "name": "Compras"
+          },
+          {
+            "id": 9,
+            "name": "Dinero"
+          },
+          {
+            "id": 10,
+            "name": "Trabajo"
+          },
+          {
+            "id": 11,
+            "name": "Entretenimiento"
+          },
+          {
+            "id": 12,
+            "name": "Estudios"
+          },
+          {
+            "id": 13,
+            "name": "Bienestar"
+          },
+          {
+            "id": 14,
+            "name": "Viajes"
+          },
+          {
+            "id": 15,
+            "name": "Clima"
+          },
+          {
+            "id": 16,
+            "name": "Mundo"
+          }
+        ]
       },
       "kids": {
+        "name": "Niños",
         "path": "es/kids.dat",
-        "count": 0
+        "count": 125,
+        "categories": [
+          {
+            "id": 1,
+            "name": "Animales"
+          },
+          {
+            "id": 2,
+            "name": "Colores"
+          },
+          {
+            "id": 3,
+            "name": "Entretenimiento"
+          },
+          {
+            "id": 4,
+            "name": "Fantasía"
+          },
+          {
+            "id": 5,
+            "name": "Comida"
+          },
+          {
+            "id": 6,
+            "name": "Juegos"
+          },
+          {
+            "id": 7,
+            "name": "Fiestas"
+          },
+          {
+            "id": 8,
+            "name": "Escuela"
+          },
+          {
+            "id": 9,
+            "name": "Juguetes"
+          }
+        ]
       },
       "custom": {
-        "movies": {
-          "path": "es/custom/movies.dat",
-          "count": 0
-        },
-        "tv": {
-          "path": "es/custom/tv.dat",
-          "count": 0
-        },
-        "games": {
-          "path": "es/custom/games.dat",
-          "count": 0
-        },
-        "sports": {
-          "path": "es/custom/sports.dat",
-          "count": 0
-        },
-        "music": {
-          "path": "es/custom/music.dat",
-          "count": 0
+        "academics": {
+          "name": "Académico",
+          "path": "es/custom/academics.dat",
+          "count": 0,
+          "weight": 1.25,
+          "categories": []
         },
         "celebrities": {
+          "name": "Celebridades",
           "path": "es/custom/celebrities.dat",
-          "count": 0
+          "count": 0,
+          "weight": 1.5,
+          "categories": []
         },
-        "knowledge": {
-          "path": "es/custom/knowledge.dat",
-          "count": 0
+        "games": {
+          "name": "Juegos",
+          "path": "es/custom/games.dat",
+          "count": 0,
+          "weight": 1.75,
+          "categories": []
         },
-        "seasonal": {
-          "path": "es/custom/seasonal.dat",
-          "count": 0
+        "movies": {
+          "name": "Películas",
+          "path": "es/custom/movies.dat",
+          "count": 0,
+          "weight": 2.5,
+          "categories": []
+        },
+        "music": {
+          "name": "Música",
+          "path": "es/custom/music.dat",
+          "count": 0,
+          "weight": 1.75,
+          "categories": []
         },
         "other": {
+          "name": "Otros",
           "path": "es/custom/other.dat",
-          "count": 0
+          "count": 0,
+          "weight": 1,
+          "categories": []
+        },
+        "seasonal": {
+          "name": "Temporada",
+          "path": "es/custom/seasonal.dat",
+          "count": 0,
+          "weight": 2,
+          "categories": []
+        },
+        "sports": {
+          "name": "Deportes",
+          "path": "es/custom/sports.dat",
+          "count": 0,
+          "weight": 1.5,
+          "categories": []
+        },
+        "tv": {
+          "name": "Televisión",
+          "path": "es/custom/tv.dat",
+          "count": 0,
+          "weight": 2.25,
+          "categories": []
         }
       }
     },
     "pt": {
       "regular": {
+        "name": "Normal",
         "path": "pt/regular.dat",
-        "count": 0
+        "count": 672,
+        "categories": [
+          {
+            "id": 1,
+            "name": "Família"
+          },
+          {
+            "id": 2,
+            "name": "Amigos"
+          },
+          {
+            "id": 3,
+            "name": "Amor"
+          },
+          {
+            "id": 4,
+            "name": "Estilo de vida"
+          },
+          {
+            "id": 5,
+            "name": "Casa"
+          },
+          {
+            "id": 6,
+            "name": "Comida"
+          },
+          {
+            "id": 7,
+            "name": "Roupas"
+          },
+          {
+            "id": 8,
+            "name": "Compras"
+          },
+          {
+            "id": 9,
+            "name": "Dinheiro"
+          },
+          {
+            "id": 10,
+            "name": "Trabalho"
+          },
+          {
+            "id": 11,
+            "name": "Entretenimento"
+          },
+          {
+            "id": 12,
+            "name": "Estudos"
+          },
+          {
+            "id": 13,
+            "name": "Bem-estar"
+          },
+          {
+            "id": 14,
+            "name": "Viagens"
+          },
+          {
+            "id": 15,
+            "name": "Clima"
+          },
+          {
+            "id": 16,
+            "name": "Mundo"
+          }
+        ]
       },
       "kids": {
+        "name": "Crianças",
         "path": "pt/kids.dat",
-        "count": 0
+        "count": 126,
+        "categories": [
+          {
+            "id": 1,
+            "name": "Animais"
+          },
+          {
+            "id": 2,
+            "name": "Cores"
+          },
+          {
+            "id": 3,
+            "name": "Entretenimento"
+          },
+          {
+            "id": 4,
+            "name": "Fantasia"
+          },
+          {
+            "id": 5,
+            "name": "Comida"
+          },
+          {
+            "id": 6,
+            "name": "Jogos"
+          },
+          {
+            "id": 7,
+            "name": "Feriados"
+          },
+          {
+            "id": 8,
+            "name": "Escola"
+          },
+          {
+            "id": 9,
+            "name": "Brinquedos"
+          }
+        ]
       },
       "custom": {
-        "movies": {
-          "path": "pt/custom/movies.dat",
-          "count": 0
-        },
-        "tv": {
-          "path": "pt/custom/tv.dat",
-          "count": 0
-        },
-        "games": {
-          "path": "pt/custom/games.dat",
-          "count": 0
-        },
-        "sports": {
-          "path": "pt/custom/sports.dat",
-          "count": 0
-        },
-        "music": {
-          "path": "pt/custom/music.dat",
-          "count": 0
+        "academics": {
+          "name": "Acadêmico",
+          "path": "pt/custom/academics.dat",
+          "count": 0,
+          "weight": 1.25,
+          "categories": []
         },
         "celebrities": {
+          "name": "Celebridades",
           "path": "pt/custom/celebrities.dat",
-          "count": 0
+          "count": 0,
+          "weight": 1.5,
+          "categories": []
         },
-        "knowledge": {
-          "path": "pt/custom/knowledge.dat",
-          "count": 0
+        "games": {
+          "name": "Jogos",
+          "path": "pt/custom/games.dat",
+          "count": 0,
+          "weight": 1.75,
+          "categories": []
         },
-        "seasonal": {
-          "path": "pt/custom/seasonal.dat",
-          "count": 0
+        "movies": {
+          "name": "Filmes",
+          "path": "pt/custom/movies.dat",
+          "count": 0,
+          "weight": 2.5,
+          "categories": []
+        },
+        "music": {
+          "name": "Música",
+          "path": "pt/custom/music.dat",
+          "count": 0,
+          "weight": 1.75,
+          "categories": []
         },
         "other": {
+          "name": "Outros",
           "path": "pt/custom/other.dat",
-          "count": 0
+          "count": 0,
+          "weight": 1,
+          "categories": []
+        },
+        "seasonal": {
+          "name": "Sazonal",
+          "path": "pt/custom/seasonal.dat",
+          "count": 0,
+          "weight": 2,
+          "categories": []
+        },
+        "sports": {
+          "name": "Esportes",
+          "path": "pt/custom/sports.dat",
+          "count": 0,
+          "weight": 1.5,
+          "categories": []
+        },
+        "tv": {
+          "name": "Televisão",
+          "path": "pt/custom/tv.dat",
+          "count": 0,
+          "weight": 2.25,
+          "categories": []
         }
       }
     },
     "ja": {
       "regular": {
+        "name": "通常",
         "path": "ja/regular.dat",
-        "count": 0
+        "count": 895,
+        "categories": [
+          {
+            "id": 1,
+            "name": "家族"
+          },
+          {
+            "id": 2,
+            "name": "友達"
+          },
+          {
+            "id": 3,
+            "name": "恋愛"
+          },
+          {
+            "id": 4,
+            "name": "ライフスタイル"
+          },
+          {
+            "id": 5,
+            "name": "家庭"
+          },
+          {
+            "id": 6,
+            "name": "食べ物"
+          },
+          {
+            "id": 7,
+            "name": "ファッション"
+          },
+          {
+            "id": 8,
+            "name": "買い物"
+          },
+          {
+            "id": 9,
+            "name": "お金"
+          },
+          {
+            "id": 10,
+            "name": "仕事"
+          },
+          {
+            "id": 11,
+            "name": "エンタメ"
+          },
+          {
+            "id": 12,
+            "name": "学問"
+          },
+          {
+            "id": 13,
+            "name": "健康"
+          },
+          {
+            "id": 14,
+            "name": "旅行"
+          },
+          {
+            "id": 15,
+            "name": "天気"
+          },
+          {
+            "id": 16,
+            "name": "世界"
+          }
+        ]
       },
       "kids": {
+        "name": "キッズ",
         "path": "ja/kids.dat",
-        "count": 0
+        "count": 252,
+        "categories": [
+          {
+            "id": 1,
+            "name": "動物"
+          },
+          {
+            "id": 2,
+            "name": "色"
+          },
+          {
+            "id": 3,
+            "name": "エンタメ"
+          },
+          {
+            "id": 4,
+            "name": "ファンタジー"
+          },
+          {
+            "id": 5,
+            "name": "食べ物"
+          },
+          {
+            "id": 6,
+            "name": "ゲーム"
+          },
+          {
+            "id": 7,
+            "name": "祝日"
+          },
+          {
+            "id": 8,
+            "name": "学校"
+          },
+          {
+            "id": 9,
+            "name": "おもちゃ"
+          }
+        ]
       },
       "custom": {
-        "movies": {
-          "path": "ja/custom/movies.dat",
-          "count": 0
+        "academics": {
+          "name": "学問",
+          "path": "ja/custom/academics.dat",
+          "count": 0,
+          "weight": 1.25,
+          "categories": []
         },
-        "tv": {
-          "path": "ja/custom/tv.dat",
-          "count": 0
-        },
-        "games": {
-          "path": "ja/custom/games.dat",
-          "count": 0
-        },
-        "sports": {
-          "path": "ja/custom/sports.dat",
-          "count": 0
-        },
-        "music": {
-          "path": "ja/custom/music.dat",
-          "count": 0
+        "anime": {
+          "name": "アニメ",
+          "path": "ja/custom/anime.dat",
+          "count": 238,
+          "weight": 1.5,
+          "categories": [
+            {
+              "id": 1,
+              "name": "アニメ全般",
+              "gameModes": [
+                "regular"
+              ]
+            },
+            {
+              "id": 2,
+              "name": "ポケモン",
+              "gameModes": [
+                "regular"
+              ]
+            },
+            {
+              "id": 3,
+              "name": "ドラゴンボール"
+            },
+            {
+              "id": 4,
+              "name": "ONE PIECE"
+            },
+            {
+              "id": 5,
+              "name": "鬼滅の刃"
+            }
+          ]
         },
         "celebrities": {
+          "name": "有名人",
           "path": "ja/custom/celebrities.dat",
-          "count": 0
+          "count": 157,
+          "weight": 1.5,
+          "categories": [
+            {
+              "id": 1,
+              "name": "芸能人",
+              "gameModes": [
+                "regular"
+              ]
+            },
+            {
+              "id": 2,
+              "name": "大谷翔平"
+            },
+            {
+              "id": 3,
+              "name": "ヒカキン"
+            },
+            {
+              "id": 4,
+              "name": "テイラー スウィフト"
+            }
+          ]
         },
-        "knowledge": {
-          "path": "ja/custom/knowledge.dat",
-          "count": 0
+        "games": {
+          "name": "ゲーム",
+          "path": "ja/custom/games.dat",
+          "count": 161,
+          "weight": 1.75,
+          "categories": [
+            {
+              "id": 1,
+              "name": "ゲーム全般",
+              "gameModes": [
+                "regular"
+              ]
+            },
+            {
+              "id": 2,
+              "name": "任天堂"
+            },
+            {
+              "id": 3,
+              "name": "ポケモン"
+            },
+            {
+              "id": 4,
+              "name": "マリオ"
+            }
+          ]
         },
-        "seasonal": {
-          "path": "ja/custom/seasonal.dat",
-          "count": 0
+        "movies": {
+          "name": "映画",
+          "path": "ja/custom/movies.dat",
+          "count": 196,
+          "weight": 2.5,
+          "categories": [
+            {
+              "id": 1,
+              "name": "映画全般",
+              "gameModes": [
+                "regular"
+              ]
+            },
+            {
+              "id": 2,
+              "name": "スタジオジブリ"
+            },
+            {
+              "id": 3,
+              "name": "ディズニー"
+            },
+            {
+              "id": 4,
+              "name": "ハリーポッター"
+            }
+          ]
+        },
+        "music": {
+          "name": "音楽",
+          "path": "ja/custom/music.dat",
+          "count": 181,
+          "weight": 1.75,
+          "categories": [
+            {
+              "id": 1,
+              "name": "音楽全般",
+              "gameModes": [
+                "regular"
+              ]
+            },
+            {
+              "id": 2,
+              "name": "J Pop"
+            },
+            {
+              "id": 3,
+              "name": "K Pop"
+            },
+            {
+              "id": 4,
+              "name": "アニメ音楽"
+            }
+          ]
         },
         "other": {
+          "name": "その他",
           "path": "ja/custom/other.dat",
-          "count": 0
+          "count": 0,
+          "weight": 1,
+          "categories": []
+        },
+        "seasonal": {
+          "name": "季節",
+          "path": "ja/custom/seasonal.dat",
+          "count": 42,
+          "weight": 1,
+          "categories": [
+            {
+              "id": 1,
+              "name": "クリスマス",
+              "gameModes": [
+                "regular"
+              ]
+            }
+          ]
+        },
+        "sports": {
+          "name": "スポーツ",
+          "path": "ja/custom/sports.dat",
+          "count": 181,
+          "weight": 1.5,
+          "categories": [
+            {
+              "id": 1,
+              "name": "スポーツ全般",
+              "gameModes": [
+                "regular"
+              ]
+            },
+            {
+              "id": 2,
+              "name": "野球"
+            },
+            {
+              "id": 3,
+              "name": "サッカー"
+            },
+            {
+              "id": 4,
+              "name": "相撲"
+            }
+          ]
+        },
+        "tv": {
+          "name": "テレビ全般",
+          "path": "ja/custom/tv.dat",
+          "count": 42,
+          "weight": 1.5,
+          "categories": [
+            {
+              "id": 1,
+              "name": "テレビ全般",
+              "gameModes": [
+                "regular"
+              ]
+            }
+          ]
         }
       }
     },
     "zh": {
       "regular": {
+        "name": "普通",
         "path": "zh/regular.dat",
-        "count": 0
+        "count": 672,
+        "categories": [
+          {
+            "id": 1,
+            "name": "家庭"
+          },
+          {
+            "id": 2,
+            "name": "朋友"
+          },
+          {
+            "id": 3,
+            "name": "爱情"
+          },
+          {
+            "id": 4,
+            "name": "生活方式"
+          },
+          {
+            "id": 5,
+            "name": "居家"
+          },
+          {
+            "id": 6,
+            "name": "美食"
+          },
+          {
+            "id": 7,
+            "name": "服装"
+          },
+          {
+            "id": 8,
+            "name": "购物"
+          },
+          {
+            "id": 9,
+            "name": "金钱"
+          },
+          {
+            "id": 10,
+            "name": "工作"
+          },
+          {
+            "id": 11,
+            "name": "娱乐"
+          },
+          {
+            "id": 12,
+            "name": "学术"
+          },
+          {
+            "id": 13,
+            "name": "健康"
+          },
+          {
+            "id": 14,
+            "name": "旅游"
+          },
+          {
+            "id": 15,
+            "name": "天气"
+          },
+          {
+            "id": 16,
+            "name": "世界"
+          }
+        ]
       },
       "kids": {
+        "name": "儿童",
         "path": "zh/kids.dat",
-        "count": 0
+        "count": 126,
+        "categories": [
+          {
+            "id": 1,
+            "name": "动物"
+          },
+          {
+            "id": 2,
+            "name": "颜色"
+          },
+          {
+            "id": 3,
+            "name": "娱乐"
+          },
+          {
+            "id": 4,
+            "name": "幻想"
+          },
+          {
+            "id": 5,
+            "name": "食物"
+          },
+          {
+            "id": 6,
+            "name": "游戏"
+          },
+          {
+            "id": 7,
+            "name": "节日"
+          },
+          {
+            "id": 8,
+            "name": "学校"
+          },
+          {
+            "id": 9,
+            "name": "玩具"
+          }
+        ]
       },
       "custom": {
-        "movies": {
-          "path": "zh/custom/movies.dat",
-          "count": 0
-        },
-        "tv": {
-          "path": "zh/custom/tv.dat",
-          "count": 0
-        },
-        "games": {
-          "path": "zh/custom/games.dat",
-          "count": 0
-        },
-        "sports": {
-          "path": "zh/custom/sports.dat",
-          "count": 0
-        },
-        "music": {
-          "path": "zh/custom/music.dat",
-          "count": 0
+        "academics": {
+          "name": "学术",
+          "path": "zh/custom/academics.dat",
+          "count": 0,
+          "weight": 1.25,
+          "categories": []
         },
         "celebrities": {
+          "name": "名人",
           "path": "zh/custom/celebrities.dat",
-          "count": 0
+          "count": 0,
+          "weight": 1.5,
+          "categories": []
         },
-        "knowledge": {
-          "path": "zh/custom/knowledge.dat",
-          "count": 0
+        "games": {
+          "name": "游戏",
+          "path": "zh/custom/games.dat",
+          "count": 0,
+          "weight": 1.75,
+          "categories": []
         },
-        "seasonal": {
-          "path": "zh/custom/seasonal.dat",
-          "count": 0
+        "movies": {
+          "name": "电影",
+          "path": "zh/custom/movies.dat",
+          "count": 0,
+          "weight": 2.5,
+          "categories": []
+        },
+        "music": {
+          "name": "音乐",
+          "path": "zh/custom/music.dat",
+          "count": 0,
+          "weight": 1.75,
+          "categories": []
         },
         "other": {
+          "name": "其他",
           "path": "zh/custom/other.dat",
-          "count": 0
+          "count": 0,
+          "weight": 1,
+          "categories": []
+        },
+        "seasonal": {
+          "name": "季节",
+          "path": "zh/custom/seasonal.dat",
+          "count": 0,
+          "weight": 2,
+          "categories": []
+        },
+        "sports": {
+          "name": "体育",
+          "path": "zh/custom/sports.dat",
+          "count": 0,
+          "weight": 1.5,
+          "categories": []
+        },
+        "tv": {
+          "name": "电视",
+          "path": "zh/custom/tv.dat",
+          "count": 0,
+          "weight": 2.25,
+          "categories": []
         }
       }
     },
     "de": {
       "regular": {
+        "name": "Normal",
         "path": "de/regular.dat",
-        "count": 0
+        "count": 672,
+        "categories": [
+          {
+            "id": 1,
+            "name": "Familie"
+          },
+          {
+            "id": 2,
+            "name": "Freunde"
+          },
+          {
+            "id": 3,
+            "name": "Liebe"
+          },
+          {
+            "id": 4,
+            "name": "Lebensstil"
+          },
+          {
+            "id": 5,
+            "name": "Zuhause"
+          },
+          {
+            "id": 6,
+            "name": "Essen"
+          },
+          {
+            "id": 7,
+            "name": "Kleidung"
+          },
+          {
+            "id": 8,
+            "name": "Einkaufen"
+          },
+          {
+            "id": 9,
+            "name": "Geld"
+          },
+          {
+            "id": 10,
+            "name": "Arbeit"
+          },
+          {
+            "id": 11,
+            "name": "Unterhaltung"
+          },
+          {
+            "id": 12,
+            "name": "Bildung"
+          },
+          {
+            "id": 13,
+            "name": "Gesundheit"
+          },
+          {
+            "id": 14,
+            "name": "Reisen"
+          },
+          {
+            "id": 15,
+            "name": "Wetter"
+          },
+          {
+            "id": 16,
+            "name": "Welt"
+          }
+        ]
       },
       "kids": {
+        "name": "Kinder",
         "path": "de/kids.dat",
-        "count": 0
+        "count": 125,
+        "categories": [
+          {
+            "id": 1,
+            "name": "Tiere"
+          },
+          {
+            "id": 2,
+            "name": "Farben"
+          },
+          {
+            "id": 3,
+            "name": "Unterhaltung"
+          },
+          {
+            "id": 4,
+            "name": "Fantasie"
+          },
+          {
+            "id": 5,
+            "name": "Essen"
+          },
+          {
+            "id": 6,
+            "name": "Spiele"
+          },
+          {
+            "id": 7,
+            "name": "Feiertage"
+          },
+          {
+            "id": 8,
+            "name": "Schule"
+          },
+          {
+            "id": 9,
+            "name": "Spielzeug"
+          }
+        ]
       },
       "custom": {
-        "movies": {
-          "path": "de/custom/movies.dat",
-          "count": 0
-        },
-        "tv": {
-          "path": "de/custom/tv.dat",
-          "count": 0
-        },
-        "games": {
-          "path": "de/custom/games.dat",
-          "count": 0
-        },
-        "sports": {
-          "path": "de/custom/sports.dat",
-          "count": 0
-        },
-        "music": {
-          "path": "de/custom/music.dat",
-          "count": 0
+        "academics": {
+          "name": "Akademisches",
+          "path": "de/custom/academics.dat",
+          "count": 0,
+          "weight": 1.25,
+          "categories": []
         },
         "celebrities": {
+          "name": "Prominente",
           "path": "de/custom/celebrities.dat",
-          "count": 0
+          "count": 0,
+          "weight": 1.5,
+          "categories": []
         },
-        "knowledge": {
-          "path": "de/custom/knowledge.dat",
-          "count": 0
+        "games": {
+          "name": "Spiele",
+          "path": "de/custom/games.dat",
+          "count": 0,
+          "weight": 1.75,
+          "categories": []
         },
-        "seasonal": {
-          "path": "de/custom/seasonal.dat",
-          "count": 0
+        "movies": {
+          "name": "Filme",
+          "path": "de/custom/movies.dat",
+          "count": 0,
+          "weight": 2.5,
+          "categories": []
+        },
+        "music": {
+          "name": "Musik",
+          "path": "de/custom/music.dat",
+          "count": 0,
+          "weight": 1.75,
+          "categories": []
         },
         "other": {
+          "name": "Other",
           "path": "de/custom/other.dat",
-          "count": 0
+          "count": 0,
+          "weight": 1,
+          "categories": []
+        },
+        "seasonal": {
+          "name": "Saisonal",
+          "path": "de/custom/seasonal.dat",
+          "count": 0,
+          "weight": 2,
+          "categories": []
+        },
+        "sports": {
+          "name": "Sport",
+          "path": "de/custom/sports.dat",
+          "count": 0,
+          "weight": 1.5,
+          "categories": []
+        },
+        "tv": {
+          "name": "Fernsehen",
+          "path": "de/custom/tv.dat",
+          "count": 0,
+          "weight": 2.25,
+          "categories": []
         }
       }
     }
